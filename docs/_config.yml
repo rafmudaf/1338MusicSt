@@ -1,0 +1,16 @@
+
+title: "City of NO CE"
+remote_theme: pmarsceill/just-the-docs
+# theme: "just-the-docs"  # uncomment this to build locally
+color_scheme: "light"
+search_enabled: true
+
+collections:
+  ce_pipeline:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    ce_pipeline:
+      name: CE Pipeline
